@@ -10,5 +10,3 @@ def winner(n,k):
         del arr[index_to_remove]
         return helper(arr,index_to_remove)
     return helper(arr,0)
-
-
