@@ -13,6 +13,7 @@ class Solution(object):
                 return
             if sum == target:
                 res.append(temp[:])
+                return
             for i in range(start,len(candidates)):
                 # adding the value in temp list
                 sum+=candidates[i]
